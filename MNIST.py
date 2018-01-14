@@ -5,7 +5,7 @@ mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
 
 nb_classes = 10
 training_epochs = 15
-batch_size = 100
+batch_size = 150
 
 X = tf.placeholder(tf.float32, [None, 784])
 Y = tf.placeholder(tf.float32, [None, nb_classes])
@@ -35,6 +35,7 @@ with tf.Session() as sess:
         print("Epoch:", "%04d" % (epoch + 1), "cost = ", "{:.9f}".format(avg_cost))
 
     print("Accuracy: ", accuracy.eval(session=sess, feed_dict={X: mnist.test.images, Y: mnist.test.labels}) )
+
     import matplotlib.pyplot as plt
     import random
 
