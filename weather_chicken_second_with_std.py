@@ -14,8 +14,10 @@ x_test_raw = xy[7000:, :-1]
 y_test_raw = xy[7000:, [-1]]
 
 # Make Standardization Scaler
-x_scale = preprocessing.StandardScaler().fit(x_raw)
-y_scale = preprocessing.StandardScaler().fit(y_raw)
+# x_scale = preprocessing.StandardScaler().fit(x_raw)
+# y_scale = preprocessing.StandardScaler().fit(y_raw)
+x_scale = preprocessing.RobustScaler().fit(x_raw)
+y_scale = preprocessing.RobustScaler().fit(y_raw)
 
 # Transform each data using MinMaxScale (scope 0 to 1)
 x_data = x_scale.transform(x_raw)

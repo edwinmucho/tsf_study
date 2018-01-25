@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27912d5a-3692-4279-9132-f688ca92c28f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/weather_chicken_second_std.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/weather_chicken_second_with_std.py" afterPath="$PROJECT_DIR$/weather_chicken_second_with_std.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +32,8 @@
       <file leaf-file-name="weather_chicken_second.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weather_chicken_second.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="64" lean-forward="true" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+            <state relative-caret-position="114">
+              <caret line="8" column="64" lean-forward="false" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -41,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weather_chicken_second_std.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/weather_chicken_second_std.py">
+      <file leaf-file-name="weather_chicken_second_with_std.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/weather_chicken_second_with_std.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="36" column="64" lean-forward="false" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+            <state relative-caret-position="380">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -76,6 +76,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/weather_chicken_second.py" />
         <option value="$PROJECT_DIR$/weather_chicken_second_std.py" />
+        <option value="$PROJECT_DIR$/weather_chicken_second_with_std.py" />
       </list>
     </option>
   </component>
@@ -99,7 +100,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,12 +111,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../django" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -138,25 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.weather_chicken_second_std">
-    <configuration name="MNIST" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="tensor_study" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MNIST.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.weather_chicken_second_with_std">
     <configuration name="normalized" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,26 +206,44 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="tensor_study" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weather_chicken_second_std.py" />
+      <option name="SCRIPT_NAME" value="C:\dev\tensor\weather_chicken_second_with_std.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="weather_chicken_second_with_std" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tensor_study" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weather_chicken_second_with_std.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.MNIST" />
-      <item index="1" class="java.lang.String" itemvalue="Python.weather_chicken" />
-      <item index="2" class="java.lang.String" itemvalue="Python.normalized" />
-      <item index="3" class="java.lang.String" itemvalue="Python.weather_chicken_second" />
-      <item index="4" class="java.lang.String" itemvalue="Python.weather_chicken_second_std" />
+      <item index="0" class="java.lang.String" itemvalue="Python.weather_chicken" />
+      <item index="1" class="java.lang.String" itemvalue="Python.normalized" />
+      <item index="2" class="java.lang.String" itemvalue="Python.weather_chicken_second" />
+      <item index="3" class="java.lang.String" itemvalue="Python.weather_chicken_second_std" />
+      <item index="4" class="java.lang.String" itemvalue="Python.weather_chicken_second_with_std" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.weather_chicken_second_std" />
-        <item index="1" class="java.lang.String" itemvalue="Python.weather_chicken_second" />
-        <item index="2" class="java.lang.String" itemvalue="Python.weather_chicken" />
-        <item index="3" class="java.lang.String" itemvalue="Python.normalized" />
-        <item index="4" class="java.lang.String" itemvalue="Python.MNIST" />
+        <item index="0" class="java.lang.String" itemvalue="Python.weather_chicken_second_with_std" />
+        <item index="1" class="java.lang.String" itemvalue="Python.weather_chicken_second_std" />
+        <item index="2" class="java.lang.String" itemvalue="Python.weather_chicken_second" />
+        <item index="3" class="java.lang.String" itemvalue="Python.weather_chicken" />
+        <item index="4" class="java.lang.String" itemvalue="Python.normalized" />
       </list>
     </recent_temporary>
   </component>
@@ -294,6 +295,36 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/weather_chicken.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather_chicken_second.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="64" lean-forward="false" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather_chicken_second_with_std.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="52" column="54" lean-forward="true" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/weather_chicken.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -475,18 +506,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/weather_chicken_second.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="64" lean-forward="true" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+        <state relative-caret-position="114">
+          <caret line="8" column="64" lean-forward="false" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weather_chicken_second_std.py">
+    <entry file="file://$PROJECT_DIR$/weather_chicken_second_with_std.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="36" column="64" lean-forward="false" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+        <state relative-caret-position="380">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
