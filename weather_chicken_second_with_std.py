@@ -16,6 +16,8 @@ y_test_raw = xy[7000:, [-1]]
 # Make Standardization Scaler
 # x_scale = preprocessing.StandardScaler().fit(x_raw)
 # y_scale = preprocessing.StandardScaler().fit(y_raw)
+
+# Make RobustScaler
 x_scale = preprocessing.RobustScaler().fit(x_raw)
 y_scale = preprocessing.RobustScaler().fit(y_raw)
 
