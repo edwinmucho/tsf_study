@@ -1,5 +1,8 @@
 *.xml
-.idea
-.idea/workspace.xml
-.ipynb_checkpoints/
+/.idea
+/.idea/workspace.xml
+/.ipynb_checkpoints/
 *.ipynb
+/mnist
+/MNIST_data
+/*.ipynb
