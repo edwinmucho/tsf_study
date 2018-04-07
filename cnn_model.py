@@ -1,5 +1,8 @@
 import tensorflow as tf
 
+class ABC:
+    pass
+
 class Cnn:
     def __init__(self, sess, name, learning_rate=0.01):
         self.sess = sess
